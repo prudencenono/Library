@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container row">
+        <h1>Library</h1>
+        <ul class="nav-list">
+            <li class="list-item"><a href="#">Home</a></li>
+            <li class="list-item"><a href="#">contact Us</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form class="libraryForm">
+            <label for="name"> Book name</label>
+            <input type="text" id="name" class="Author">
+            <br>
+            <label for="author">Author</label>
+            <input type="text" id="author" class="Author">
+        <br>
+        <h3>Type of book</h3>
+        <input type="radio" name="type" id="fiction" value="Fiction">
+        <label  for="fiction"> Non-Fiction</label>
+        <br>
+        <input type="radio" name="type" id="computer" value="Computer Programming">
+        <label for="computer">Computer Programming</label>
+        <br>
+        <input type="radio" name="type" id="cooking" value="Cooking">
+        <label for="cooking">Cooking</label>
+
+        <br>
+
+        <hr />
+
+    <div class="container">
+        <div id="message"></div>
+        <div class="header">
+            <ul>
+            <p>Book Name :</p>
+            <p>Author :</p>
+            <p>Type of book :</p>
+            </ul>
+        </div>
+        <div id="library">
+
+
+    </div>
+        <button type="submit" id="addBook">Add Book</button>
+        
+    </form>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Edu VIC WA NT Beginner;
+    font-size: 18px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+nav {
+    background-color: rgb(202, 253, 62);
+    padding: 12px 0;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type:  none;
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration:none;
+    font-size: 19px;
+    color: rgb(53, 1, 53);
+}
+
+form {
+   padding: 20px 0;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width:300px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: rgb(192, 39, 1);
+    border: none;
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 35%;
+    
+
+}
+
+.delete {
+    padding: 4px 8px;
+    color: red;
+   background-color:bisque;
+   border-radius: 0px;
+   
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header >* {
+    width: 100%;
+}
+
+.displayBook {
+    display: flex;
+    align-items: center;
+}
+
+.displayBook >* {
+    width: 100%;
+}
+
+.sucess {
+    background-color: rgb(30, 3, 61);
+    padding: 12px;
+    color: #fff;
+}
+
+.alert {
+    background-color: rgb(175, 5, 5);
+    padding: 12px;
+}
